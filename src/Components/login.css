@@ -1,0 +1,30 @@
+.login-container{
+    width: 90%;
+    margin: auto;
+}
+
+.login-container h1{
+    font-size: 1.5rem
+}
+
+.login-container .field{
+    margin: 1rem 0;
+}
+
+.login-container .field input{
+    border-radius: 4px;
+}
+
+.login-container .field button{
+    background: white;
+    color: #2FB53D;
+    border-radius: 16px;
+    border: 1px solid #2FB53D !important;
+    padding: 6px 8px;
+}
+
+.login-container .field button:hover,
+.login-container .field button:active{
+    background: #1D9129;
+    color: white
+}
